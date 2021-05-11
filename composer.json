@@ -1,0 +1,21 @@
+{
+  "name": "vendor_circle/prc-circle-cylinder",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "pypy",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "justinrainbow/json-schema": "~2.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    }
+  }
+}
